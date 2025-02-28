@@ -1,4 +1,4 @@
-name: diff_monge_maps_demo
+name: diff_cost_monge_maps
 channels:
   - conda-forge
   - defaults

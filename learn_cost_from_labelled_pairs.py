@@ -27,6 +27,9 @@ from tqdm import trange
 from src.loss_helpers import all_pairs_pairwise, potential_fn, get_grad_f
 
 ######################## FLOWS #######################
+'''
+From jax-flows library (https://github.com/ChrisWaites/jax-flows)
+'''
 
 def get_masks(input_dim, hidden_dim=64, num_hidden=1):
     masks = []
